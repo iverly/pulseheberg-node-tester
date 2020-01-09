@@ -1,0 +1,11 @@
+{
+  "name": "pulseheberg-node-tester",
+  "version": "1.0.0",
+  "main": "",
+  "scripts": {
+    "start:www": "cd www/ && npm run serve"
+  },
+  "repository": "git@github.com:iverly/pulseheberg-node-tester.git",
+  "author": "iverly <iverly.dev@gmail.com>",
+  "license": "MIT"
+}
