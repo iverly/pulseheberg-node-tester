@@ -10,7 +10,7 @@ const server = new Koa();
 
 server
     .use(helmet())
-    .use(cors())
+    .use(cors({ origin: '*' }))
     .use(bodyParser())
     .use(indexRouter.routes())
     .use(indexRouter.allowedMethods())
